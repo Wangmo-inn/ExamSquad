@@ -1,0 +1,26 @@
+.examinstructions{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2ded4;
+}
+
+.examinstructionswrapper{
+    font-size: 20px;
+}
+
+.insbutton{
+    align-self: center;
+    height: 40px;
+    width: 100px;
+    margin: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #097969;;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}

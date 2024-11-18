@@ -1,0 +1,19 @@
+.examtable{
+    flex: 9;
+}
+
+.examtablewrapper{
+    margin: 30px;
+    overflow-y:scroll;
+    height: 80vh;
+
+}
+
+table tr:nth-child(odd) td{
+  background-color: rgba(240, 240, 240, 0.3);
+  border: none;
+}
+
+table tr:nth-child(even) td{
+    border: none;
+  }

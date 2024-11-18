@@ -1,0 +1,98 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c2ded4;
+  }
+  
+  .registerwrapper {
+    display: flex;
+    width: 70%;
+  }
+  
+  .registerlogo,
+  .registerform {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .registerlogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #097969;
+    margin-bottom: 10px;
+  }
+  
+  .registerform{
+      height: 400px;
+      padding: 20px;
+      display: flex;
+      border-radius: 10px;
+  }
+  
+  .registerinput{
+      height: 40px;
+      width: 320px;
+      border: #097969;
+      border-bottom: 2px solid #097969;
+      font-size: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .registerInput:focus{
+      outline: none;
+  }
+  
+  .registerButton{
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      width: 320px;
+      background-color: #097969;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+  
+  .registerButton:focus{
+    outline: none;
+  }
+  
+  .registerButton:disabled{
+    cursor: not-allowed;
+  }
+  
+  .registertitle{
+    font-size: 24px;
+    font-weight: 800;
+    color: #097969;
+    margin-bottom: 20px;
+  }
+
+
+  .loginRegisterButton{
+      width: 320px;
+      align-self: center;
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      background-color: #097969;;
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+
+  .roleinput{
+    margin-bottom: 20px;
+    color: #097969;
+    font-weight: 500;
+    font-size: 15px;
+  }

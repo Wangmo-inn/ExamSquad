@@ -1,0 +1,38 @@
+.intropart{
+    flex : 1;
+}
+
+.introImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.intro{
+    flex: 1;
+    height: calc(100vh - 65px);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    background-color: #9ee1ca;
+}
+
+.introdesc{
+    font-weight: 100;
+    text-align: center;
+}
+
+.testbutton{
+    padding: 10px 20px;
+    background-color: #097969;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+}
+

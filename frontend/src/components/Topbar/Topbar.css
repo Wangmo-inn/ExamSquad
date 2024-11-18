@@ -1,0 +1,35 @@
+.me-auto {
+    margin: 0 auto;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Asap', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar {
+    border: none;
+    margin: 3vm;
+}
+
+.color-nav {
+    background-color:#097969;
+}
+
+.topbarImg {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
