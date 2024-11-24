@@ -20,8 +20,6 @@ An online exam management web application designed to streamline the process of 
 
 The Exam Center is a full-fledged web application tailored for educators and institutions, enabling the creation, management, and monitoring of online examinations with a keen focus on security and integrity.
 
-[Link to Github repository](https://github.com/your-github-username/exam-center)
-
 ## Tech Stack
 
 This project is built using the MERN stack, which includes:
